@@ -1,3 +1,3 @@
 # Incremental Game
  
-Project untuk materi Incremental Game, course Dilo Academy role Game Programming
+Project untuk materi Incremental Game, course Dilo Game Academy role Game Programming
