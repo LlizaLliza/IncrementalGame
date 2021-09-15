@@ -64,9 +64,10 @@ public class GameManager : MonoBehaviour
         CoinIcon.transform.localScale = Vector3.LerpUnclamped(CoinIcon.transform.localScale, Vector3.one * 2f, 0.15f);
         CoinIcon.transform.Rotate(0f, 0f, Time.deltaTime * -100f);
 
+        //read input
         if (Input.GetKeyDown("escape"))
         {
-            print("space key was pressed");
+            print("escape key was pressed");
             Application.Quit();
         }
     }
