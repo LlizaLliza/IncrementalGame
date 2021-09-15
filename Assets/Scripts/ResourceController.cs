@@ -42,7 +42,8 @@ public class ResourceController : MonoBehaviour
     public void SetConfig(ResourceConfig config)
     {
         _config = config;
-        
+
+        // ToString("0") berfungsi untuk membuang angka di belakang koma
         ResourceDescription.text = $"{ _config.Name } Lv. { _level }\n+{ GetOutput().ToString("0") }";
         ResourceUnlockCost.text = $"Unlock Cost\n{ _config.UnlockCost }";
         ResourceUpgradeCost.text = $"Upgrade Cost\n{ GetUpgradeCost() }";
